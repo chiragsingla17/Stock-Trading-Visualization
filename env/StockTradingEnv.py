@@ -159,15 +159,15 @@ class StockTradingEnv(gym.Env):
 
         file = open(filename, 'a+')
 
-        file.write(f'Step: {self.current_step}\n')
-        file.write(f'Balance: {self.balance}\n')
-        file.write(
-            f'Shares held: {self.shares_held} (Total sold: {self.total_shares_sold})\n')
-        file.write(
-            f'Avg cost for held shares: {self.cost_basis} (Total sales value: {self.total_sales_value})\n')
-        file.write(
-            f'Net worth: {self.net_worth} (Max net worth: {self.max_net_worth})\n')
-        file.write(f'Profit: {profit}\n\n')
+        # file.write(f'Step: {self.current_step}\n')
+        # file.write(f'Balance: {self.balance}\n')
+        # file.write(
+        #     f'Shares held: {self.shares_held} (Total sold: {self.total_shares_sold})\n')
+        # file.write(
+        #     f'Avg cost for held shares: {self.cost_basis} (Total sales value: {self.total_sales_value})\n')
+        # file.write(
+        #     f'Net worth: {self.net_worth} (Max net worth: {self.max_net_worth})\n')
+        # file.write(f'Profit: {profit}\n\n')
 
         file.close()
 

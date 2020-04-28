@@ -148,7 +148,7 @@ class StockTradingGraph:
                 total = '{0:.2f}'.format(trade['total'])
 
                 # Print the current price to the price axis
-                self.price_ax.annotate(f'${total}', (date, high_low),
+                self.price_ax.annotate('${total}', (date, high_low),
                                        xytext=(date, high_low),
                                        color=color,
                                        fontsize=8,
